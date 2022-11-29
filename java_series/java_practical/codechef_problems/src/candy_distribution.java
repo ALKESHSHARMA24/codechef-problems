@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class candy_distribution {
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        Scanner in =new Scanner(System.in);
+        int t= in.nextInt();
+        for(int i=0;i<t;i++) {
+
+            int a = in.nextInt();
+            int b = in.nextInt();
+
+            int d=a/b;
+            if(d%2==0){
+                System.out.println("yes");
+            }
+            else{
+                System.out.println("no");
+            }
+        }
+    }
+}
